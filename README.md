@@ -1,8 +1,8 @@
-# Domain Availability API: Check if a Domain Is Available in Python
+# Domain Availability API: Check if a Domain Is Available
 
-Check whether a domain name is available to register, from Python, with the [WhoisFreaks Domain Availability API](https://whoisfreaks.com/products/domain-availability-api). Ask about one domain, get up to 100 available alternatives on other TLDs in the same call, or check up to 100 domains in one bulk request.
+Check whether a domain name is available to register with the [WhoisFreaks Domain Availability API](https://whoisfreaks.com/products/domain-availability-api), a REST API you can call from any language. Ask about one domain, get up to 100 available alternatives on other TLDs in the same call, or check up to 100 domains in one bulk request.
 
-This page uses the official [Python SDK](https://github.com/WhoisFreaks/whoisfreaks-python). The same API key works for WHOIS, DNS lookup and the other WhoisFreaks APIs.
+This page uses plain HTTP and the official [Python SDK](https://github.com/WhoisFreaks/whoisfreaks-python). Ready-to-run scripts in cURL, Python and Node.js are in [`examples/`](examples/). The same API key works for WHOIS, DNS lookup and the other WhoisFreaks APIs.
 
 A check for `whoisfreaks.com` returns this complete response:
 
@@ -278,7 +278,7 @@ Full pricing: [credit usage](https://whoisfreaks.com/documentation/credit-usage)
 Yes. The API checks registration status in real time when you call it.
 
 **Is there a free domain availability API?**
-Yes. A free WhoisFreaks account includes 500 credits with no credit card.
+Yes. A [free WhoisFreaks account](https://whoisfreaks.com/products/whois-api/free-whois-api) includes 500 credits with no credit card. The credits never expire, and free keys can be used commercially.
 
 **How many suggestions can I get?**
 Up to 100 per request, set with `count`.
